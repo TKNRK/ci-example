@@ -12,10 +12,6 @@ func include(slice []int, target int) bool {
 	return false
 }
 
-func unusedFunc() {
-	fmt.Println("unused!")
-}
-
 func main() {
 	s1 := []int{1, 2, 3}
 	if include(s1, 1) {
